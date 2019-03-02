@@ -1,0 +1,50 @@
+body {
+  background: #34495e;
+}
+
+.form-container {
+  background: #191919;
+  padding: 50px 20px;
+}
+
+body, #root, .app {
+  height: 100%;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-control {
+  background: #191919;
+  border: 2px solid #3498db;
+  color: #fff;
+  border-radius: 25px;
+  transition: 0.25s;
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-control:focus {
+  width: 80%;
+  background: #191919;
+  border-color: #2ecc71;
+  color: #fff;
+}
+
+.btn.btn-outline-success {
+  border-width: 2px;
+  border-radius: 25px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
